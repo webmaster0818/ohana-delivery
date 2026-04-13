@@ -53,27 +53,13 @@ const services = [
     id: "bloomee",
     name: "bloomee（ブルーミー）",
     tagline: "SNSで話題の初心者向けサービス",
+    image: "/images/service-bloomee.jpg",
     overview:
       "bloomeeは、累計会員数10万人以上を誇る、日本最大級のお花の定期便サービスです。全国200店舗以上の提携花屋さんから届くお花は、季節感あふれるアレンジが魅力。届いたお花をSNSに投稿するユーザーも多く、インスタグラムでも話題のサービスです。ポスト投函で届くため、不在時でも受け取れる手軽さが初心者に支持されています。",
     plans: [
-      {
-        name: "体験プラン",
-        price: "980円/回",
-        flowers: "3本以上",
-        delivery: "隔週",
-      },
-      {
-        name: "レギュラープラン",
-        price: "1,580円/回",
-        flowers: "4本以上",
-        delivery: "隔週",
-      },
-      {
-        name: "リッチプラン",
-        price: "2,980円/回",
-        flowers: "8本以上",
-        delivery: "隔週",
-      },
+      { name: "体験プラン", price: "980円/回", flowers: "3本以上", delivery: "隔週" },
+      { name: "レギュラープラン", price: "1,580円/回", flowers: "4本以上", delivery: "隔週" },
+      { name: "リッチプラン", price: "2,980円/回", flowers: "8本以上", delivery: "隔週" },
     ],
     shipping: "385円",
     deliveryMethod: "ポスト投函（リッチプランは手渡し）",
@@ -99,27 +85,13 @@ const services = [
     id: "medelu",
     name: "medelu（メデル）",
     tagline: "コスパ最強、送料無料の実力派",
+    image: "/images/service-medelu.jpg",
     overview:
       "medeluは、月額698円からという業界最安クラスの価格設定が魅力のお花の定期便です。送料無料なのも大きなポイント。お部屋の雰囲気に合わせて「ANYROOM」「MODERN」「NATURAL」の3コースから選べるのが特徴で、インテリアとの調和を意識したアレンジが届きます。コストを抑えながらも質の良いお花を楽しみたい方に最適なサービスです。",
     plans: [
-      {
-        name: "Liteコース",
-        price: "698円/回",
-        flowers: "3本",
-        delivery: "隔週",
-      },
-      {
-        name: "Lite+コース",
-        price: "1,198円/回",
-        flowers: "5〜6本",
-        delivery: "隔週",
-      },
-      {
-        name: "Basicコース",
-        price: "1,958円/回",
-        flowers: "6〜9本",
-        delivery: "隔週",
-      },
+      { name: "Liteコース", price: "698円/回", flowers: "3本", delivery: "隔週" },
+      { name: "Lite+コース", price: "1,198円/回", flowers: "5〜6本", delivery: "隔週" },
+      { name: "Basicコース", price: "1,958円/回", flowers: "6〜9本", delivery: "隔週" },
     ],
     shipping: "無料",
     deliveryMethod: "ポスト投函（Basicは宅配便）",
@@ -145,27 +117,13 @@ const services = [
     id: "andplants",
     name: "AND PLANTS（アンドプランツ）",
     tagline: "おしゃれ派向けのハイセンスな花",
+    image: "/images/service-andplants.jpg",
     overview:
       "AND PLANTSは、おしゃれなインテリアグリーンや観葉植物で知られるブランドが手掛けるお花の定期便です。プロのフローリストが厳選したセンスの良いアレンジが特徴で、インテリアにこだわる方から高い支持を得ています。初回500円OFFのキャンペーンを実施しており、気軽にお試しできるのも魅力。3つのプランから選べ、ボリューム感のあるお花が届きます。",
     plans: [
-      {
-        name: "Sプラン",
-        price: "1,980円/回",
-        flowers: "4〜6本",
-        delivery: "隔週/月1回",
-      },
-      {
-        name: "Mプラン",
-        price: "2,980円/回",
-        flowers: "6〜9本",
-        delivery: "隔週/月1回",
-      },
-      {
-        name: "Lプラン",
-        price: "4,980円/回",
-        flowers: "10〜14本",
-        delivery: "隔週/月1回",
-      },
+      { name: "Sプラン", price: "1,980円/回", flowers: "4〜6本", delivery: "隔週/月1回" },
+      { name: "Mプラン", price: "2,980円/回", flowers: "6〜9本", delivery: "隔週/月1回" },
+      { name: "Lプラン", price: "4,980円/回", flowers: "10〜14本", delivery: "隔週/月1回" },
     ],
     shipping: "無料",
     deliveryMethod: "宅配便（手渡し）",
@@ -191,21 +149,12 @@ const services = [
     id: "hananoteikibin",
     name: "花の定期便（日本総合園芸）",
     tagline: "農家直送で鮮度を追求",
+    image: "/images/service-hananoteikibin.jpg",
     overview:
       "日本総合園芸が運営する「花の定期便」は、生産者から直接届く鮮度重視のサービスです。市場を通さず農家から直送されるため、通常の花屋で購入するよりも新鮮な状態のお花が届きます。季節の旬の花を中心に、本格的なアレンジメントが楽しめるのが特徴。花持ちの良さを重視する方や、本格的なお花を自宅で楽しみたい方におすすめです。",
     plans: [
-      {
-        name: "レギュラー",
-        price: "1,500円〜/回",
-        flowers: "5〜7本",
-        delivery: "隔週/月1回",
-      },
-      {
-        name: "プレミアム",
-        price: "3,000円〜/回",
-        flowers: "10本以上",
-        delivery: "隔週/月1回",
-      },
+      { name: "レギュラー", price: "1,500円〜/回", flowers: "5〜7本", delivery: "隔週/月1回" },
+      { name: "プレミアム", price: "3,000円〜/回", flowers: "10本以上", delivery: "隔週/月1回" },
     ],
     shipping: "地域により異なる",
     deliveryMethod: "宅配便（手渡し）",
@@ -231,27 +180,13 @@ const services = [
     id: "hanameku",
     name: "hanameku（ハナメク）",
     tagline: "市場直送、回数縛りなしで気軽に",
+    image: "/images/service-hanameku.jpg",
     overview:
       "hanamekuは、市場直送にこだわった新鮮なお花が届くサービスです。回数の縛りがないため、いつでも自由にスキップや解約ができる気軽さが特徴。お花のプロが市場で直接仕入れた旬の花をそのまま届けるため、鮮度と品質のバランスが優れています。試しに1回だけ注文してみたいという方にもおすすめです。",
     plans: [
-      {
-        name: "ライトプラン",
-        price: "858円/回",
-        flowers: "3本",
-        delivery: "隔週",
-      },
-      {
-        name: "セルフアレンジプラン",
-        price: "1,958円/回",
-        flowers: "7〜10本",
-        delivery: "隔週/月1回",
-      },
-      {
-        name: "スタンダードプラン",
-        price: "2,680円/回",
-        flowers: "花瓶付き",
-        delivery: "隔週/月1回",
-      },
+      { name: "ライトプラン", price: "858円/回", flowers: "3本", delivery: "隔週" },
+      { name: "セルフアレンジプラン", price: "1,958円/回", flowers: "7〜10本", delivery: "隔週/月1回" },
+      { name: "スタンダードプラン", price: "2,680円/回", flowers: "花瓶付き", delivery: "隔週/月1回" },
     ],
     shipping: "無料（一部プラン）",
     deliveryMethod: "ポスト投函/宅配便",
@@ -323,40 +258,37 @@ const faqItems = [
 const purposes = [
   {
     title: "一人暮らしの方に",
-    description:
-      "不在でも受け取れるポスト投函対応で、少量から始められるサービスがおすすめ。",
+    icon: "🏠",
+    description: "不在でも受け取れるポスト投函対応で、少量から始められるサービスがおすすめ。",
     services: ["bloomee 体験プラン（980円+送料385円）", "medelu Liteコース（698円・送料無料）"],
     best: "medelu",
   },
   {
     title: "プレゼント用に",
-    description:
-      "ボリュームのある華やかなアレンジで、ギフト対応しているサービスが最適。",
+    icon: "🎁",
+    description: "ボリュームのある華やかなアレンジで、ギフト対応しているサービスが最適。",
     services: ["AND PLANTS Mプラン以上（2,980円〜）", "bloomee リッチプラン（2,980円）"],
     best: "AND PLANTS",
   },
   {
     title: "おしゃれにこだわる方に",
-    description:
-      "プロのフローリストによるセンスの良いアレンジが届くサービスを選びましょう。",
+    icon: "✨",
+    description: "プロのフローリストによるセンスの良いアレンジが届くサービスを選びましょう。",
     services: ["AND PLANTS（全プラン）", "medelu MODERNコース"],
     best: "AND PLANTS",
   },
   {
     title: "コスパ重視の方に",
-    description:
-      "送料込みの総額で比較して、最もお得に続けられるサービスを選びましょう。",
+    icon: "💰",
+    description: "送料込みの総額で比較して、最もお得に続けられるサービスを選びましょう。",
     services: ["medelu Liteコース（698円・送料無料）", "hanameku ライトプラン（858円）"],
     best: "medelu",
   },
   {
     title: "鮮度重視の方に",
-    description:
-      "農家直送や市場直送で、より新鮮な状態のお花が届くサービスがおすすめ。",
-    services: [
-      "花の定期便（農家直送）",
-      "hanameku（市場直送）",
-    ],
+    icon: "🌿",
+    description: "農家直送や市場直送で、より新鮮な状態のお花が届くサービスがおすすめ。",
+    services: ["花の定期便（農家直送）", "hanameku（市場直送）"],
     best: "花の定期便",
   },
 ];
@@ -422,23 +354,29 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* ─── Header ─── */}
-      <header className="bg-white border-b border-[#E5E5E5] sticky top-0 z-50">
-        <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
-          <h1 className="text-lg md:text-xl font-bold text-[#4A7C59]">
-            お花の定期便ナビ
-          </h1>
-          <nav className="hidden md:flex gap-6 text-sm text-[#666]">
-            <a href="#comparison" className="hover:text-[#4A7C59] transition-colors">
+      <header className="bg-white/80 backdrop-blur-md border-b border-[#E8E0D8] sticky top-0 z-50">
+        <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+          <a href="#" className="flex items-center gap-2">
+            <span className="text-2xl">🌷</span>
+            <span className="heading-serif text-xl md:text-2xl font-semibold text-[#3D3632]">
+              お花の定期便ナビ
+            </span>
+          </a>
+          <nav className="hidden md:flex gap-8 text-sm text-[#6B5F57]">
+            <a href="#diagnosis" className="hover:text-[#C4877A] transition-colors">
+              診断
+            </a>
+            <a href="#comparison" className="hover:text-[#C4877A] transition-colors">
               比較表
             </a>
-            <a href="#reviews" className="hover:text-[#4A7C59] transition-colors">
+            <a href="#reviews" className="hover:text-[#C4877A] transition-colors">
               サービス詳細
             </a>
-            <a href="#how-to-choose" className="hover:text-[#4A7C59] transition-colors">
+            <a href="#how-to-choose" className="hover:text-[#C4877A] transition-colors">
               選び方
             </a>
-            <a href="#faq" className="hover:text-[#4A7C59] transition-colors">
-              よくある質問
+            <a href="#faq" className="hover:text-[#C4877A] transition-colors">
+              FAQ
             </a>
           </nav>
         </div>
@@ -446,199 +384,235 @@ export default function Home() {
 
       <main className="flex-1">
         {/* ─── Hero Section ─── */}
-        <section className="bg-[#F9E8E8] py-16 md:py-24">
-          <div className="max-w-4xl mx-auto px-4 text-center">
-            <p className="text-sm md:text-base text-[#4A7C59] font-medium mb-4 tracking-wide">
-              あなたにぴったりのお花が見つかる
-            </p>
-            <h2 className="text-3xl md:text-5xl font-bold text-[#333] mb-6 leading-tight">
-              お花の定期便ナビ
-            </h2>
-            <p className="text-base md:text-lg text-[#666] max-w-2xl mx-auto leading-relaxed mb-8">
-              人気のお花のサブスク5社を料金・届き方・花の本数で徹底比較。
-              初心者からこだわり派まで、あなたのライフスタイルに合った
-              お花の定期便が見つかります。
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="#diagnosis"
-                className="inline-block bg-[#4A7C59] text-white px-8 py-3 rounded-lg font-medium hover:bg-[#3A6247] transition-colors"
-              >
-                30秒で診断する
-              </a>
-              <a
-                href="#comparison"
-                className="inline-block bg-white text-[#4A7C59] border border-[#4A7C59] px-8 py-3 rounded-lg font-medium hover:bg-[#E8F0EB] transition-colors"
-              >
-                比較表を見る
-              </a>
+        <section className="relative min-h-[500px] md:min-h-[600px] flex items-center overflow-hidden">
+          <img
+            src="/images/hero.jpg"
+            alt="花のある暮らし"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div className="hero-overlay absolute inset-0" />
+          <div className="relative z-10 max-w-6xl mx-auto px-4 py-20 md:py-0">
+            <div className="max-w-xl">
+              <p className="text-sm md:text-base text-[#C4877A] font-medium mb-4 tracking-widest uppercase">
+                Flower Subscription Guide
+              </p>
+              <h2 className="heading-serif text-4xl md:text-6xl font-bold text-[#3D3632] mb-6 leading-[1.2]">
+                暮らしに、
+                <br />
+                お花を。
+              </h2>
+              <p className="text-base md:text-lg text-[#6B5F57] leading-relaxed mb-10 max-w-md">
+                人気のお花の定期便5社を徹底比較。
+                あなたのライフスタイルにぴったりの
+                サービスが見つかります。
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a
+                  href="#diagnosis"
+                  className="inline-block bg-[#C4877A] text-white px-8 py-4 rounded-full font-medium hover:bg-[#A86B5E] transition-all hover:shadow-lg text-center"
+                >
+                  30秒で診断する
+                </a>
+                <a
+                  href="#comparison"
+                  className="inline-block bg-white/80 text-[#3D3632] border border-[#E8E0D8] px-8 py-4 rounded-full font-medium hover:bg-white transition-all text-center"
+                >
+                  比較表を見る
+                </a>
+              </div>
             </div>
           </div>
         </section>
+
+        {/* ─── Flower Divider ─── */}
+        <div className="flower-divider">
+          <span className="text-[#C4877A] text-lg">❀</span>
+        </div>
 
         {/* ─── Quick Diagnosis ─── */}
-        <section id="diagnosis" className="py-16 bg-white">
+        <section id="diagnosis" className="py-20 bg-white">
           <div className="max-w-3xl mx-auto px-4">
-            <h2 className="text-2xl md:text-3xl font-bold text-center text-[#333] mb-3">
-              あなたに合ったサービスを診断
-            </h2>
-            <p className="text-center text-[#666] mb-10">
-              3つの質問に答えるだけで、おすすめのお花の定期便がわかります
-            </p>
+            <div className="text-center mb-12">
+              <p className="text-sm text-[#C4877A] tracking-widest mb-3">DIAGNOSIS</p>
+              <h2 className="heading-serif text-3xl md:text-4xl font-bold text-[#3D3632] mb-4">
+                あなたに合ったサービスを診断
+              </h2>
+              <p className="text-[#6B5F57]">
+                3つの質問に答えるだけで、おすすめのお花の定期便がわかります
+              </p>
+            </div>
 
-            <div className="bg-[#FDF5F5] rounded-2xl p-6 md:p-10">
-              {diagnosisStep === 0 && (
-                <div className="text-center">
-                  <p className="text-lg font-medium text-[#333] mb-6">
-                    簡単3ステップであなたにぴったりのサービスを見つけましょう
-                  </p>
-                  <button
-                    onClick={() => setDiagnosisStep(1)}
-                    className="bg-[#4A7C59] text-white px-8 py-3 rounded-lg font-medium hover:bg-[#3A6247] transition-colors"
-                  >
-                    診断スタート
-                  </button>
-                </div>
-              )}
-
-              {diagnosisStep === 1 && (
-                <div>
-                  <p className="text-sm text-[#4A7C59] font-medium mb-2">
-                    質問 1/3
-                  </p>
-                  <p className="text-lg font-medium text-[#333] mb-6">
-                    お花の定期便に何を求めますか？
-                  </p>
-                  <div className="grid gap-3">
-                    {[
-                      { value: "beginner", label: "手軽に始めたい（初心者）" },
-                      { value: "stylish", label: "おしゃれなお花が欲しい" },
-                      { value: "quality", label: "品質・鮮度にこだわりたい" },
-                    ].map((opt) => (
-                      <button
-                        key={opt.value}
-                        onClick={() => handleAnswer("q1", opt.value)}
-                        className="text-left bg-white border border-[#E5E5E5] rounded-lg px-5 py-4 hover:border-[#4A7C59] hover:bg-[#E8F0EB] transition-colors"
-                      >
-                        {opt.label}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {diagnosisStep === 2 && (
-                <div>
-                  <p className="text-sm text-[#4A7C59] font-medium mb-2">
-                    質問 2/3
-                  </p>
-                  <p className="text-lg font-medium text-[#333] mb-6">
-                    最も重視するポイントは？
-                  </p>
-                  <div className="grid gap-3">
-                    {[
-                      { value: "cost", label: "コスパ（できるだけ安く）" },
-                      { value: "freshness", label: "鮮度（長持ちするお花）" },
-                      { value: "design", label: "デザイン（おしゃれさ）" },
-                    ].map((opt) => (
-                      <button
-                        key={opt.value}
-                        onClick={() => handleAnswer("q2", opt.value)}
-                        className="text-left bg-white border border-[#E5E5E5] rounded-lg px-5 py-4 hover:border-[#4A7C59] hover:bg-[#E8F0EB] transition-colors"
-                      >
-                        {opt.label}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {diagnosisStep === 3 && (
-                <div>
-                  <p className="text-sm text-[#4A7C59] font-medium mb-2">
-                    質問 3/3
-                  </p>
-                  <p className="text-lg font-medium text-[#333] mb-6">
-                    受け取り方法の希望は？
-                  </p>
-                  <div className="grid gap-3">
-                    {[
-                      { value: "post", label: "ポスト投函（不在でもOK）" },
-                      { value: "hand", label: "手渡し（大きなアレンジOK）" },
-                      { value: "flexible", label: "どちらでもよい" },
-                    ].map((opt) => (
-                      <button
-                        key={opt.value}
-                        onClick={() => handleAnswer("q3", opt.value)}
-                        className="text-left bg-white border border-[#E5E5E5] rounded-lg px-5 py-4 hover:border-[#4A7C59] hover:bg-[#E8F0EB] transition-colors"
-                      >
-                        {opt.label}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {diagnosisStep === 4 && result && (
-                <div className="text-center">
-                  <p className="text-sm text-[#4A7C59] font-medium mb-2">
-                    診断結果
-                  </p>
-                  <p className="text-xl md:text-2xl font-bold text-[#333] mb-3">
-                    あなたにおすすめは
-                  </p>
-                  <p className="text-2xl md:text-3xl font-bold text-[#4A7C59] mb-4">
-                    {recommendationMap[result]?.name}
-                  </p>
-                  <p className="text-[#666] mb-6 max-w-md mx-auto">
-                    {recommendationMap[result]?.reason}
-                  </p>
-                  <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                    <a
-                      href={`#${result}`}
-                      className="inline-block bg-[#4A7C59] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#3A6247] transition-colors"
-                    >
-                      詳細を見る
-                    </a>
+            <div className="relative">
+              <img
+                src="/images/section-diagnosis.jpg"
+                alt=""
+                className="w-full h-48 object-cover rounded-t-3xl"
+              />
+              <div className="bg-white border border-[#E8E0D8] border-t-0 rounded-b-3xl p-8 md:p-12 shadow-sm">
+                {diagnosisStep === 0 && (
+                  <div className="text-center">
+                    <p className="text-lg text-[#3D3632] mb-8">
+                      簡単3ステップで<br className="md:hidden" />ぴったりのサービスを見つけましょう
+                    </p>
                     <button
-                      onClick={resetDiagnosis}
-                      className="inline-block bg-white text-[#4A7C59] border border-[#4A7C59] px-6 py-3 rounded-lg font-medium hover:bg-[#E8F0EB] transition-colors"
+                      onClick={() => setDiagnosisStep(1)}
+                      className="bg-[#C4877A] text-white px-10 py-4 rounded-full font-medium hover:bg-[#A86B5E] transition-all hover:shadow-lg"
                     >
-                      もう一度診断する
+                      診断スタート
                     </button>
                   </div>
-                </div>
-              )}
+                )}
+
+                {diagnosisStep === 1 && (
+                  <div>
+                    <div className="flex items-center gap-3 mb-6">
+                      <span className="w-8 h-8 rounded-full bg-[#C4877A] text-white text-sm flex items-center justify-center font-medium">1</span>
+                      <span className="text-sm text-[#C4877A]">質問 1/3</span>
+                    </div>
+                    <p className="text-lg font-medium text-[#3D3632] mb-6">
+                      お花の定期便に何を求めますか？
+                    </p>
+                    <div className="grid gap-3">
+                      {[
+                        { value: "beginner", label: "手軽に始めたい（初心者）" },
+                        { value: "stylish", label: "おしゃれなお花が欲しい" },
+                        { value: "quality", label: "品質・鮮度にこだわりたい" },
+                      ].map((opt) => (
+                        <button
+                          key={opt.value}
+                          onClick={() => handleAnswer("q1", opt.value)}
+                          className="text-left bg-[#FBF8F4] border border-[#E8E0D8] rounded-2xl px-6 py-5 hover:border-[#C4877A] hover:bg-[#F9F2F0] transition-all"
+                        >
+                          {opt.label}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {diagnosisStep === 2 && (
+                  <div>
+                    <div className="flex items-center gap-3 mb-6">
+                      <span className="w-8 h-8 rounded-full bg-[#C4877A] text-white text-sm flex items-center justify-center font-medium">2</span>
+                      <span className="text-sm text-[#C4877A]">質問 2/3</span>
+                    </div>
+                    <p className="text-lg font-medium text-[#3D3632] mb-6">
+                      最も重視するポイントは？
+                    </p>
+                    <div className="grid gap-3">
+                      {[
+                        { value: "cost", label: "コスパ（できるだけ安く）" },
+                        { value: "freshness", label: "鮮度（長持ちするお花）" },
+                        { value: "design", label: "デザイン（おしゃれさ）" },
+                      ].map((opt) => (
+                        <button
+                          key={opt.value}
+                          onClick={() => handleAnswer("q2", opt.value)}
+                          className="text-left bg-[#FBF8F4] border border-[#E8E0D8] rounded-2xl px-6 py-5 hover:border-[#C4877A] hover:bg-[#F9F2F0] transition-all"
+                        >
+                          {opt.label}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {diagnosisStep === 3 && (
+                  <div>
+                    <div className="flex items-center gap-3 mb-6">
+                      <span className="w-8 h-8 rounded-full bg-[#C4877A] text-white text-sm flex items-center justify-center font-medium">3</span>
+                      <span className="text-sm text-[#C4877A]">質問 3/3</span>
+                    </div>
+                    <p className="text-lg font-medium text-[#3D3632] mb-6">
+                      受け取り方法の希望は？
+                    </p>
+                    <div className="grid gap-3">
+                      {[
+                        { value: "post", label: "ポスト投函（不在でもOK）" },
+                        { value: "hand", label: "手渡し（大きなアレンジOK）" },
+                        { value: "flexible", label: "どちらでもよい" },
+                      ].map((opt) => (
+                        <button
+                          key={opt.value}
+                          onClick={() => handleAnswer("q3", opt.value)}
+                          className="text-left bg-[#FBF8F4] border border-[#E8E0D8] rounded-2xl px-6 py-5 hover:border-[#C4877A] hover:bg-[#F9F2F0] transition-all"
+                        >
+                          {opt.label}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {diagnosisStep === 4 && result && (
+                  <div className="text-center">
+                    <p className="text-sm text-[#C4877A] tracking-widest mb-3">
+                      RESULT
+                    </p>
+                    <p className="text-lg text-[#6B5F57] mb-2">
+                      あなたにおすすめは
+                    </p>
+                    <p className="heading-serif text-3xl md:text-4xl font-bold text-[#C4877A] mb-5">
+                      {recommendationMap[result]?.name}
+                    </p>
+                    <p className="text-[#6B5F57] mb-8 max-w-md mx-auto leading-relaxed">
+                      {recommendationMap[result]?.reason}
+                    </p>
+                    <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                      <a
+                        href={`#${result}`}
+                        className="inline-block bg-[#C4877A] text-white px-8 py-3 rounded-full font-medium hover:bg-[#A86B5E] transition-all"
+                      >
+                        詳細を見る
+                      </a>
+                      <button
+                        onClick={resetDiagnosis}
+                        className="inline-block bg-white text-[#3D3632] border border-[#E8E0D8] px-8 py-3 rounded-full font-medium hover:bg-[#FBF8F4] transition-all"
+                      >
+                        もう一度診断する
+                      </button>
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </section>
 
-        {/* ─── Comparison Table ─── */}
-        <section id="comparison" className="py-16 bg-[#F8F8F8]">
-          <div className="max-w-5xl mx-auto px-4">
-            <h2 className="text-2xl md:text-3xl font-bold text-center text-[#333] mb-3">
-              お花の定期便 5社比較表
-            </h2>
-            <p className="text-center text-[#666] mb-10">
-              料金・送料・届き方を一目で比較できます
-            </p>
+        {/* ─── Flower Divider ─── */}
+        <div className="flower-divider bg-[#FBF8F4]">
+          <span className="text-[#C4877A] text-lg">❀</span>
+        </div>
 
-            <div className="table-wrapper rounded-xl shadow-sm">
-              <table className="comparison-table w-full bg-white">
+        {/* ─── Comparison Table ─── */}
+        <section id="comparison" className="py-20 bg-[#FBF8F4]">
+          <div className="max-w-5xl mx-auto px-4">
+            <div className="text-center mb-12">
+              <p className="text-sm text-[#C4877A] tracking-widest mb-3">COMPARISON</p>
+              <h2 className="heading-serif text-3xl md:text-4xl font-bold text-[#3D3632] mb-4">
+                お花の定期便 5社比較表
+              </h2>
+              <p className="text-[#6B5F57]">
+                料金・送料・届き方を一目で比較できます
+              </p>
+            </div>
+
+            <div className="table-wrapper rounded-2xl shadow-sm bg-white overflow-hidden">
+              <table className="comparison-table w-full">
                 <thead>
                   <tr>
-                    <th className="rounded-tl-xl">サービス</th>
+                    <th className="rounded-tl-2xl">サービス</th>
                     <th>最安料金</th>
                     <th>送料</th>
                     <th>届き方</th>
                     <th>花の本数</th>
                     <th>頻度</th>
-                    <th className="rounded-tr-xl">解約条件</th>
+                    <th className="rounded-tr-2xl">解約条件</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td className="font-medium">bloomee</td>
+                    <td className="font-medium text-[#3D3632]">bloomee</td>
                     <td>980円/回</td>
                     <td>385円</td>
                     <td>ポスト投函</td>
@@ -647,25 +621,25 @@ export default function Home() {
                     <td>4回縛り</td>
                   </tr>
                   <tr>
-                    <td className="font-medium">medelu</td>
-                    <td>698円/回</td>
-                    <td>無料</td>
+                    <td className="font-medium text-[#3D3632]">medelu</td>
+                    <td className="text-[#C4877A] font-medium">698円/回</td>
+                    <td className="text-[#7A9E7E] font-medium">無料</td>
                     <td>ポスト投函</td>
                     <td>3本〜</td>
                     <td>隔週</td>
-                    <td>縛りなし</td>
+                    <td className="text-[#7A9E7E]">縛りなし</td>
                   </tr>
                   <tr>
-                    <td className="font-medium">AND PLANTS</td>
+                    <td className="font-medium text-[#3D3632]">AND PLANTS</td>
                     <td>1,980円/回</td>
-                    <td>無料</td>
+                    <td className="text-[#7A9E7E] font-medium">無料</td>
                     <td>手渡し</td>
                     <td>4〜6本</td>
                     <td>隔週/月1</td>
-                    <td>縛りなし</td>
+                    <td className="text-[#7A9E7E]">縛りなし</td>
                   </tr>
                   <tr>
-                    <td className="font-medium">花の定期便</td>
+                    <td className="font-medium text-[#3D3632]">花の定期便</td>
                     <td>1,500円〜/回</td>
                     <td>地域別</td>
                     <td>手渡し</td>
@@ -674,149 +648,129 @@ export default function Home() {
                     <td>コース別</td>
                   </tr>
                   <tr>
-                    <td className="font-medium">hanameku</td>
+                    <td className="font-medium text-[#3D3632]">hanameku</td>
                     <td>858円/回</td>
                     <td>一部無料</td>
                     <td>ポスト/手渡し</td>
                     <td>3本〜</td>
                     <td>隔週</td>
-                    <td>縛りなし</td>
+                    <td className="text-[#7A9E7E]">縛りなし</td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
-            <p className="text-sm text-[#999] mt-4 text-center">
+            <p className="text-sm text-[#9B8F87] mt-6 text-center">
               ※ 料金は税込み表示です。最新の料金は各公式サイトでご確認ください。
             </p>
           </div>
         </section>
 
         {/* ─── Individual Service Reviews ─── */}
-        <section id="reviews" className="py-16 bg-white">
+        <section id="reviews" className="py-20 bg-white">
           <div className="max-w-4xl mx-auto px-4">
-            <h2 className="text-2xl md:text-3xl font-bold text-center text-[#333] mb-3">
-              各サービスの詳細レビュー
-            </h2>
-            <p className="text-center text-[#666] mb-12">
-              5つのサービスを徹底的に解説します
-            </p>
+            <div className="text-center mb-16">
+              <p className="text-sm text-[#C4877A] tracking-widest mb-3">REVIEWS</p>
+              <h2 className="heading-serif text-3xl md:text-4xl font-bold text-[#3D3632] mb-4">
+                各サービスの詳細レビュー
+              </h2>
+              <p className="text-[#6B5F57]">
+                5つのサービスを徹底的に解説します
+              </p>
+            </div>
 
-            <div className="space-y-16">
+            <div className="space-y-20">
               {services.map((service, idx) => (
                 <article
                   key={service.id}
                   id={service.id}
-                  className="scroll-mt-20"
+                  className="service-card scroll-mt-24"
                 >
-                  <div className="border border-[#E5E5E5] rounded-2xl overflow-hidden">
-                    {/* Service Header */}
-                    <div className="bg-[#F9E8E8] px-6 py-5 md:px-8 md:py-6">
-                      <p className="text-sm text-[#4A7C59] font-medium mb-1">
-                        {idx + 1}. {service.tagline}
-                      </p>
-                      <h3 className="text-xl md:text-2xl font-bold text-[#333]">
-                        {service.name}
-                      </h3>
+                  <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-[#E8E0D8]">
+                    {/* Service Image Header */}
+                    <div className="relative h-56 md:h-72 overflow-hidden">
+                      <img
+                        src={service.image}
+                        alt={service.name}
+                        className="service-card-img w-full h-full object-cover"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+                      <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">
+                        <p className="text-white/80 text-sm mb-1">
+                          {idx + 1}. {service.tagline}
+                        </p>
+                        <h3 className="heading-serif text-2xl md:text-3xl font-bold text-white">
+                          {service.name}
+                        </h3>
+                      </div>
                     </div>
 
-                    <div className="px-6 py-6 md:px-8 md:py-8 space-y-8">
+                    <div className="p-6 md:p-10 space-y-8">
                       {/* Overview */}
                       <div>
-                        <h4 className="text-lg font-bold text-[#333] mb-3 border-l-4 border-[#4A7C59] pl-3">
+                        <h4 className="text-lg font-bold text-[#3D3632] mb-3 flex items-center gap-2">
+                          <span className="w-1 h-6 bg-[#C4877A] rounded-full inline-block" />
                           サービス概要
                         </h4>
-                        <p className="text-[#666] leading-relaxed">
+                        <p className="text-[#6B5F57] leading-[1.9]">
                           {service.overview}
                         </p>
                       </div>
 
                       {/* Pricing Table */}
                       <div>
-                        <h4 className="text-lg font-bold text-[#333] mb-3 border-l-4 border-[#4A7C59] pl-3">
+                        <h4 className="text-lg font-bold text-[#3D3632] mb-3 flex items-center gap-2">
+                          <span className="w-1 h-6 bg-[#C4877A] rounded-full inline-block" />
                           料金プラン
                         </h4>
-                        <div className="table-wrapper">
+                        <div className="table-wrapper rounded-xl overflow-hidden border border-[#E8E0D8]">
                           <table className="w-full text-sm">
                             <thead>
-                              <tr className="bg-[#E8F0EB]">
-                                <th className="text-left px-4 py-3 font-medium text-[#333]">
-                                  プラン
-                                </th>
-                                <th className="text-left px-4 py-3 font-medium text-[#333]">
-                                  料金
-                                </th>
-                                <th className="text-left px-4 py-3 font-medium text-[#333]">
-                                  花の本数
-                                </th>
-                                <th className="text-left px-4 py-3 font-medium text-[#333]">
-                                  配送頻度
-                                </th>
+                              <tr className="bg-[#FBF8F4]">
+                                <th className="text-left px-5 py-3.5 font-medium text-[#3D3632]">プラン</th>
+                                <th className="text-left px-5 py-3.5 font-medium text-[#3D3632]">料金</th>
+                                <th className="text-left px-5 py-3.5 font-medium text-[#3D3632]">花の本数</th>
+                                <th className="text-left px-5 py-3.5 font-medium text-[#3D3632]">配送頻度</th>
                               </tr>
                             </thead>
                             <tbody>
                               {service.plans.map((plan) => (
-                                <tr
-                                  key={plan.name}
-                                  className="border-b border-[#E5E5E5]"
-                                >
-                                  <td className="px-4 py-3">{plan.name}</td>
-                                  <td className="px-4 py-3 font-medium text-[#4A7C59]">
-                                    {plan.price}
-                                  </td>
-                                  <td className="px-4 py-3">{plan.flowers}</td>
-                                  <td className="px-4 py-3">{plan.delivery}</td>
+                                <tr key={plan.name} className="border-t border-[#E8E0D8]">
+                                  <td className="px-5 py-3.5">{plan.name}</td>
+                                  <td className="px-5 py-3.5 font-medium text-[#C4877A]">{plan.price}</td>
+                                  <td className="px-5 py-3.5">{plan.flowers}</td>
+                                  <td className="px-5 py-3.5">{plan.delivery}</td>
                                 </tr>
                               ))}
                             </tbody>
                           </table>
                         </div>
-                        <div className="mt-3 flex flex-wrap gap-4 text-sm text-[#666]">
-                          <span>
-                            送料: <strong>{service.shipping}</strong>
-                          </span>
-                          <span>
-                            届き方: <strong>{service.deliveryMethod}</strong>
-                          </span>
-                          <span>
-                            解約: <strong>{service.cancellation}</strong>
-                          </span>
+                        <div className="mt-4 flex flex-wrap gap-4 text-sm text-[#6B5F57]">
+                          <span className="bg-[#FBF8F4] px-3 py-1.5 rounded-full">送料: <strong>{service.shipping}</strong></span>
+                          <span className="bg-[#FBF8F4] px-3 py-1.5 rounded-full">届き方: <strong>{service.deliveryMethod}</strong></span>
+                          <span className="bg-[#FBF8F4] px-3 py-1.5 rounded-full">解約: <strong>{service.cancellation}</strong></span>
                         </div>
                       </div>
 
                       {/* Pros & Cons */}
                       <div className="grid md:grid-cols-2 gap-6">
-                        <div>
-                          <h4 className="text-lg font-bold text-[#333] mb-3 border-l-4 border-[#4A7C59] pl-3">
-                            メリット
-                          </h4>
-                          <ul className="space-y-2">
+                        <div className="bg-[#E8F0E9] rounded-2xl p-6">
+                          <h4 className="font-bold text-[#5C7F60] mb-4">メリット</h4>
+                          <ul className="space-y-3">
                             {service.pros.map((pro) => (
-                              <li
-                                key={pro}
-                                className="flex items-start gap-2 text-[#666]"
-                              >
-                                <span className="text-[#4A7C59] font-bold mt-0.5 shrink-0">
-                                  +
-                                </span>
+                              <li key={pro} className="flex items-start gap-2 text-[#3D3632] text-sm leading-relaxed">
+                                <span className="text-[#7A9E7E] mt-0.5 shrink-0">&#10003;</span>
                                 {pro}
                               </li>
                             ))}
                           </ul>
                         </div>
-                        <div>
-                          <h4 className="text-lg font-bold text-[#333] mb-3 border-l-4 border-[#F0D0D0] pl-3">
-                            デメリット
-                          </h4>
-                          <ul className="space-y-2">
+                        <div className="bg-[#F9F2F0] rounded-2xl p-6">
+                          <h4 className="font-bold text-[#A86B5E] mb-4">デメリット</h4>
+                          <ul className="space-y-3">
                             {service.cons.map((con) => (
-                              <li
-                                key={con}
-                                className="flex items-start gap-2 text-[#666]"
-                              >
-                                <span className="text-[#C88] font-bold mt-0.5 shrink-0">
-                                  -
-                                </span>
+                              <li key={con} className="flex items-start gap-2 text-[#3D3632] text-sm leading-relaxed">
+                                <span className="text-[#C4877A] mt-0.5 shrink-0">&#9651;</span>
                                 {con}
                               </li>
                             ))}
@@ -825,19 +779,14 @@ export default function Home() {
                       </div>
 
                       {/* Recommended For */}
-                      <div className="bg-[#E8F0EB] rounded-xl p-5">
-                        <h4 className="font-bold text-[#333] mb-3">
+                      <div className="bg-[#FBF8F4] rounded-2xl p-6 border border-[#E8E0D8]">
+                        <h4 className="font-bold text-[#3D3632] mb-3">
                           こんな方におすすめ
                         </h4>
                         <ul className="space-y-2">
                           {service.recommended.map((rec) => (
-                            <li
-                              key={rec}
-                              className="flex items-start gap-2 text-[#555]"
-                            >
-                              <span className="text-[#4A7C59] font-bold mt-0.5 shrink-0">
-                                &gt;
-                              </span>
+                            <li key={rec} className="flex items-start gap-3 text-[#6B5F57] text-sm">
+                              <span className="text-[#C4877A] shrink-0">&#9656;</span>
                               {rec}
                             </li>
                           ))}
@@ -852,36 +801,42 @@ export default function Home() {
         </section>
 
         {/* ─── Purpose-based Recommendations ─── */}
-        <section id="purpose" className="py-16 bg-[#F8F8F8]">
+        <section id="purpose" className="py-20 bg-[#FBF8F4]">
           <div className="max-w-4xl mx-auto px-4">
-            <h2 className="text-2xl md:text-3xl font-bold text-center text-[#333] mb-3">
-              目的別おすすめサービス
-            </h2>
-            <p className="text-center text-[#666] mb-10">
-              あなたの目的に合ったサービスを見つけましょう
-            </p>
+            <div className="text-center mb-12">
+              <p className="text-sm text-[#C4877A] tracking-widest mb-3">FOR YOU</p>
+              <h2 className="heading-serif text-3xl md:text-4xl font-bold text-[#3D3632] mb-4">
+                目的別おすすめサービス
+              </h2>
+              <p className="text-[#6B5F57]">
+                あなたの目的に合ったサービスを見つけましょう
+              </p>
+            </div>
 
             <div className="grid md:grid-cols-2 gap-6">
               {purposes.map((purpose) => (
                 <div
                   key={purpose.title}
-                  className="bg-white rounded-xl border border-[#E5E5E5] p-6 hover:shadow-md transition-shadow"
+                  className="bg-white rounded-2xl p-7 hover:shadow-md transition-all border border-[#E8E0D8] group"
                 >
-                  <h3 className="text-lg font-bold text-[#333] mb-2">
-                    {purpose.title}
-                  </h3>
-                  <p className="text-sm text-[#666] mb-4">
+                  <div className="flex items-center gap-3 mb-4">
+                    <span className="text-2xl">{purpose.icon}</span>
+                    <h3 className="text-lg font-bold text-[#3D3632]">
+                      {purpose.title}
+                    </h3>
+                  </div>
+                  <p className="text-sm text-[#6B5F57] mb-5 leading-relaxed">
                     {purpose.description}
                   </p>
-                  <div className="space-y-2 mb-4">
+                  <div className="space-y-2 mb-5">
                     {purpose.services.map((s) => (
-                      <p key={s} className="text-sm text-[#555] flex items-start gap-2">
-                        <span className="text-[#4A7C59] shrink-0">-</span>
+                      <p key={s} className="text-sm text-[#6B5F57] flex items-start gap-2">
+                        <span className="text-[#C4877A] shrink-0">-</span>
                         {s}
                       </p>
                     ))}
                   </div>
-                  <p className="text-sm font-medium text-[#4A7C59]">
+                  <p className="text-sm font-medium text-[#C4877A] bg-[#F9F2F0] inline-block px-3 py-1 rounded-full">
                     イチオシ: {purpose.best}
                   </p>
                 </div>
@@ -891,63 +846,73 @@ export default function Home() {
         </section>
 
         {/* ─── How to Choose ─── */}
-        <section id="how-to-choose" className="py-16 bg-white">
+        <section id="how-to-choose" className="py-20 bg-white">
           <div className="max-w-4xl mx-auto px-4">
-            <h2 className="text-2xl md:text-3xl font-bold text-center text-[#333] mb-3">
-              お花の定期便の選び方 5つのポイント
-            </h2>
-            <p className="text-center text-[#666] mb-10">
-              失敗しないために押さえておきたいチェックポイント
-            </p>
+            <div className="text-center mb-12">
+              <p className="text-sm text-[#C4877A] tracking-widest mb-3">HOW TO CHOOSE</p>
+              <h2 className="heading-serif text-3xl md:text-4xl font-bold text-[#3D3632] mb-4">
+                お花の定期便の選び方
+              </h2>
+              <p className="text-[#6B5F57]">
+                失敗しないために押さえておきたい5つのポイント
+              </p>
+            </div>
 
-            <div className="space-y-6">
-              {howToChoose.map((item, idx) => (
-                <div
-                  key={item.title}
-                  className="flex gap-4 md:gap-6 items-start"
-                >
-                  <div className="w-10 h-10 md:w-12 md:h-12 shrink-0 rounded-full bg-[#4A7C59] text-white flex items-center justify-center font-bold text-lg">
-                    {idx + 1}
+            <div className="relative">
+              <img
+                src="/images/section-guide.jpg"
+                alt=""
+                className="w-full h-40 md:h-52 object-cover rounded-3xl mb-12"
+              />
+              <div className="space-y-8">
+                {howToChoose.map((item, idx) => (
+                  <div key={item.title} className="flex gap-5 md:gap-8 items-start">
+                    <div className="w-12 h-12 md:w-14 md:h-14 shrink-0 rounded-full bg-[#C4877A] text-white flex items-center justify-center font-bold text-lg heading-serif">
+                      {idx + 1}
+                    </div>
+                    <div className="flex-1 pb-8 border-b border-[#E8E0D8] last:border-b-0">
+                      <h3 className="text-lg font-bold text-[#3D3632] mb-3">
+                        {item.title}
+                      </h3>
+                      <p className="text-[#6B5F57] leading-[1.9]">
+                        {item.description}
+                      </p>
+                    </div>
                   </div>
-                  <div className="flex-1">
-                    <h3 className="text-lg font-bold text-[#333] mb-2">
-                      {item.title}
-                    </h3>
-                    <p className="text-[#666] leading-relaxed">
-                      {item.description}
-                    </p>
-                  </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         </section>
 
         {/* ─── FAQ ─── */}
-        <section id="faq" className="py-16 bg-[#F8F8F8]">
+        <section id="faq" className="py-20 bg-[#FBF8F4]">
           <div className="max-w-3xl mx-auto px-4">
-            <h2 className="text-2xl md:text-3xl font-bold text-center text-[#333] mb-3">
-              よくある質問
-            </h2>
-            <p className="text-center text-[#666] mb-10">
-              お花の定期便に関する疑問にお答えします
-            </p>
+            <div className="text-center mb-12">
+              <p className="text-sm text-[#C4877A] tracking-widest mb-3">FAQ</p>
+              <h2 className="heading-serif text-3xl md:text-4xl font-bold text-[#3D3632] mb-4">
+                よくある質問
+              </h2>
+              <p className="text-[#6B5F57]">
+                お花の定期便に関する疑問にお答えします
+              </p>
+            </div>
 
             <div className="space-y-3">
               {faqItems.map((item, idx) => (
                 <div
                   key={idx}
-                  className="bg-white rounded-xl border border-[#E5E5E5] overflow-hidden"
+                  className="bg-white rounded-2xl overflow-hidden border border-[#E8E0D8]"
                 >
                   <button
                     onClick={() => setOpenFaq(openFaq === idx ? null : idx)}
-                    className="w-full text-left px-5 py-4 flex items-center justify-between gap-4 hover:bg-[#FDF5F5] transition-colors"
+                    className="w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-[#FBF8F4] transition-colors"
                   >
-                    <span className="font-medium text-[#333]">
+                    <span className="font-medium text-[#3D3632]">
                       Q. {item.q}
                     </span>
                     <span
-                      className={`text-[#4A7C59] text-xl shrink-0 transition-transform ${
+                      className={`text-[#C4877A] text-xl shrink-0 transition-transform duration-300 ${
                         openFaq === idx ? "rotate-45" : ""
                       }`}
                     >
@@ -955,7 +920,7 @@ export default function Home() {
                     </span>
                   </button>
                   {openFaq === idx && (
-                    <div className="px-5 pb-4 text-[#666] leading-relaxed border-t border-[#E5E5E5] pt-4">
+                    <div className="px-6 pb-5 text-[#6B5F57] leading-[1.9] border-t border-[#E8E0D8] pt-4">
                       A. {item.a}
                     </div>
                   )}
@@ -966,48 +931,39 @@ export default function Home() {
         </section>
 
         {/* ─── Summary + CTA ─── */}
-        <section className="py-16 bg-[#F9E8E8]">
-          <div className="max-w-3xl mx-auto px-4 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#333] mb-6">
-              まとめ：自分に合ったお花の定期便を選ぼう
+        <section className="relative py-20 overflow-hidden">
+          <img
+            src="/images/section-lifestyle.jpg"
+            alt=""
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-white/85" />
+          <div className="relative z-10 max-w-3xl mx-auto px-4 text-center">
+            <p className="text-sm text-[#C4877A] tracking-widest mb-3">SUMMARY</p>
+            <h2 className="heading-serif text-3xl md:text-4xl font-bold text-[#3D3632] mb-8">
+              自分に合ったお花の定期便を<br className="hidden md:inline" />選びましょう
             </h2>
-            <div className="text-left bg-white rounded-2xl p-6 md:p-8 mb-8 text-[#666] leading-relaxed space-y-4">
+            <div className="text-left bg-white/90 backdrop-blur-sm rounded-3xl p-8 md:p-10 mb-10 text-[#6B5F57] leading-[1.9] space-y-4 shadow-sm border border-[#E8E0D8]">
               <p>
                 お花の定期便は、忙しい毎日の中に彩りを添えてくれるサービスです。
                 この記事では人気5社を比較してきましたが、それぞれに特徴があり、一概に「これが一番」とは言えません。
               </p>
               <p>大切なのは、あなたのライフスタイルに合ったサービスを選ぶことです。</p>
-              <ul className="space-y-2 my-4">
-                <li className="flex items-start gap-2">
-                  <span className="text-[#4A7C59] font-bold shrink-0">-</span>
-                  <span>
-                    <strong>初心者で手軽に始めたいなら</strong> → bloomee
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#4A7C59] font-bold shrink-0">-</span>
-                  <span>
-                    <strong>コスパ最優先なら</strong> → medelu（送料無料で698円〜）
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#4A7C59] font-bold shrink-0">-</span>
-                  <span>
-                    <strong>おしゃれなお花が欲しいなら</strong> → AND PLANTS
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#4A7C59] font-bold shrink-0">-</span>
-                  <span>
-                    <strong>鮮度重視なら</strong> → 花の定期便（農家直送）
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#4A7C59] font-bold shrink-0">-</span>
-                  <span>
-                    <strong>縛りなしで気軽に試したいなら</strong> → hanameku
-                  </span>
-                </li>
+              <ul className="space-y-3 my-4">
+                {[
+                  { label: "初心者で手軽に始めたいなら", value: "bloomee" },
+                  { label: "コスパ最優先なら", value: "medelu（送料無料で698円〜）" },
+                  { label: "おしゃれなお花が欲しいなら", value: "AND PLANTS" },
+                  { label: "鮮度重視なら", value: "花の定期便（農家直送）" },
+                  { label: "縛りなしで気軽に試したいなら", value: "hanameku" },
+                ].map((item) => (
+                  <li key={item.label} className="flex items-start gap-3">
+                    <span className="text-[#C4877A] shrink-0 mt-1">&#9656;</span>
+                    <span>
+                      <strong className="text-[#3D3632]">{item.label}</strong> → {item.value}
+                    </span>
+                  </li>
+                ))}
               </ul>
               <p>
                 迷ったら、まずは安いプランやお試しキャンペーンから始めてみることをおすすめします。
@@ -1016,7 +972,7 @@ export default function Home() {
             </div>
             <a
               href="#diagnosis"
-              className="inline-block bg-[#4A7C59] text-white px-8 py-4 rounded-lg font-medium text-lg hover:bg-[#3A6247] transition-colors"
+              className="inline-block bg-[#C4877A] text-white px-10 py-4 rounded-full font-medium text-lg hover:bg-[#A86B5E] transition-all hover:shadow-lg"
             >
               もう一度診断してみる
             </a>
@@ -1025,81 +981,44 @@ export default function Home() {
       </main>
 
       {/* ─── Footer ─── */}
-      <footer className="bg-[#333] text-white py-10">
+      <footer className="bg-[#3D3632] text-white py-12">
         <div className="max-w-5xl mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
+          <div className="grid md:grid-cols-3 gap-10 mb-10">
             <div>
-              <h3 className="font-bold text-lg mb-3">お花の定期便ナビ</h3>
+              <div className="flex items-center gap-2 mb-4">
+                <span className="text-xl">🌷</span>
+                <h3 className="heading-serif font-bold text-lg">お花の定期便ナビ</h3>
+              </div>
               <p className="text-sm text-gray-400 leading-relaxed">
                 お花の定期便（花のサブスク）の比較情報サイトです。各サービスの料金、届き方、口コミなどを徹底調査し、あなたにぴったりのサービス選びをサポートします。
               </p>
             </div>
             <div>
-              <h4 className="font-bold mb-3">コンテンツ</h4>
-              <ul className="space-y-2 text-sm text-gray-400">
-                <li>
-                  <a href="#comparison" className="hover:text-white transition-colors">
-                    比較表
-                  </a>
-                </li>
-                <li>
-                  <a href="#reviews" className="hover:text-white transition-colors">
-                    サービス詳細
-                  </a>
-                </li>
-                <li>
-                  <a href="#purpose" className="hover:text-white transition-colors">
-                    目的別おすすめ
-                  </a>
-                </li>
-                <li>
-                  <a href="#how-to-choose" className="hover:text-white transition-colors">
-                    選び方ガイド
-                  </a>
-                </li>
-                <li>
-                  <a href="#faq" className="hover:text-white transition-colors">
-                    よくある質問
-                  </a>
-                </li>
+              <h4 className="font-bold mb-4 text-sm tracking-wider text-gray-300">コンテンツ</h4>
+              <ul className="space-y-2.5 text-sm text-gray-400">
+                <li><a href="#comparison" className="hover:text-[#C4877A] transition-colors">比較表</a></li>
+                <li><a href="#reviews" className="hover:text-[#C4877A] transition-colors">サービス詳細</a></li>
+                <li><a href="#purpose" className="hover:text-[#C4877A] transition-colors">目的別おすすめ</a></li>
+                <li><a href="#how-to-choose" className="hover:text-[#C4877A] transition-colors">選び方ガイド</a></li>
+                <li><a href="#faq" className="hover:text-[#C4877A] transition-colors">よくある質問</a></li>
               </ul>
             </div>
             <div>
-              <h4 className="font-bold mb-3">サービス一覧</h4>
-              <ul className="space-y-2 text-sm text-gray-400">
-                <li>
-                  <a href="#bloomee" className="hover:text-white transition-colors">
-                    bloomee（ブルーミー）
-                  </a>
-                </li>
-                <li>
-                  <a href="#medelu" className="hover:text-white transition-colors">
-                    medelu（メデル）
-                  </a>
-                </li>
-                <li>
-                  <a href="#andplants" className="hover:text-white transition-colors">
-                    AND PLANTS
-                  </a>
-                </li>
-                <li>
-                  <a href="#hananoteikibin" className="hover:text-white transition-colors">
-                    花の定期便
-                  </a>
-                </li>
-                <li>
-                  <a href="#hanameku" className="hover:text-white transition-colors">
-                    hanameku（ハナメク）
-                  </a>
-                </li>
+              <h4 className="font-bold mb-4 text-sm tracking-wider text-gray-300">サービス一覧</h4>
+              <ul className="space-y-2.5 text-sm text-gray-400">
+                <li><a href="#bloomee" className="hover:text-[#C4877A] transition-colors">bloomee（ブルーミー）</a></li>
+                <li><a href="#medelu" className="hover:text-[#C4877A] transition-colors">medelu（メデル）</a></li>
+                <li><a href="#andplants" className="hover:text-[#C4877A] transition-colors">AND PLANTS</a></li>
+                <li><a href="#hananoteikibin" className="hover:text-[#C4877A] transition-colors">花の定期便</a></li>
+                <li><a href="#hanameku" className="hover:text-[#C4877A] transition-colors">hanameku（ハナメク）</a></li>
               </ul>
             </div>
           </div>
-          <div className="border-t border-gray-700 pt-6 text-center">
-            <p className="text-sm text-gray-500">
+          <div className="border-t border-gray-600 pt-8 text-center">
+            <p className="text-xs text-gray-500 leading-relaxed">
               当サイトはアフィリエイトプログラムに参加しています。掲載情報は記事執筆時点のものです。最新情報は各公式サイトでご確認ください。
             </p>
-            <p className="text-sm text-gray-500 mt-2">
+            <p className="text-xs text-gray-500 mt-2">
               &copy; 2026 お花の定期便ナビ All Rights Reserved.
             </p>
           </div>

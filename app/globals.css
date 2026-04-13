@@ -1,23 +1,29 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-pink-base: #F9E8E8;
-  --color-pink-light: #FDF5F5;
-  --color-pink-medium: #F0D0D0;
-  --color-green-accent: #4A7C59;
-  --color-green-light: #E8F0EB;
-  --color-green-dark: #3A6247;
-  --color-text-primary: #333333;
-  --color-text-secondary: #666666;
-  --color-text-muted: #999999;
-  --color-border: #E5E5E5;
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+
+  --color-cream: #FBF8F4;
+  --color-cream-dark: #F5F0E8;
+  --color-blush: #F2E4E1;
+  --color-blush-light: #F9F2F0;
+  --color-rose: #C4877A;
+  --color-rose-dark: #A86B5E;
+  --color-sage: #7A9E7E;
+  --color-sage-light: #E8F0E9;
+  --color-sage-dark: #5C7F60;
+  --color-taupe: #8B7D72;
+  --color-text-primary: #3D3632;
+  --color-text-secondary: #6B5F57;
+  --color-text-muted: #9B8F87;
+  --color-border: #E8E0D8;
   --color-bg-white: #FFFFFF;
-  --color-bg-gray: #F8F8F8;
 }
 
 body {
   color: var(--color-text-primary);
-  background: var(--color-bg-white);
+  background: var(--color-cream);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -26,22 +32,27 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
+/* Elegant serif headings */
+.heading-serif {
+  font-family: var(--font-heading), "Georgia", serif;
+  letter-spacing: 0.02em;
 }
 
-::-webkit-scrollbar-track {
-  background: var(--color-pink-light);
+/* Flower divider */
+.flower-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px 0;
 }
 
-::-webkit-scrollbar-thumb {
-  background: var(--color-pink-medium);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #E0B8B8;
+.flower-divider::before,
+.flower-divider::after {
+  content: "";
+  height: 1px;
+  width: 60px;
+  background: var(--color-border);
 }
 
 /* Table responsive wrapper */
@@ -53,7 +64,7 @@ html {
 /* Comparison table */
 .comparison-table th,
 .comparison-table td {
-  padding: 12px 16px;
+  padding: 14px 18px;
   text-align: left;
   border-bottom: 1px solid var(--color-border);
   white-space: nowrap;
@@ -67,7 +78,7 @@ html {
 }
 
 .comparison-table th {
-  background: var(--color-green-accent);
+  background: var(--color-sage);
   color: white;
   font-weight: 500;
   position: sticky;
@@ -75,9 +86,40 @@ html {
 }
 
 .comparison-table tr:nth-child(even) {
-  background: var(--color-pink-light);
+  background: var(--color-blush-light);
 }
 
 .comparison-table tr:hover {
-  background: var(--color-green-light);
+  background: var(--color-sage-light);
+}
+
+/* Soft image overlay for hero */
+.hero-overlay {
+  background: linear-gradient(
+    to right,
+    rgba(251, 248, 244, 0.95) 0%,
+    rgba(251, 248, 244, 0.7) 40%,
+    rgba(251, 248, 244, 0.2) 70%,
+    transparent 100%
+  );
+}
+
+@media (max-width: 767px) {
+  .hero-overlay {
+    background: linear-gradient(
+      to bottom,
+      rgba(251, 248, 244, 0.3) 0%,
+      rgba(251, 248, 244, 0.85) 50%,
+      rgba(251, 248, 244, 0.98) 100%
+    );
+  }
+}
+
+/* Service card image hover */
+.service-card-img {
+  transition: transform 0.6s ease;
+}
+
+.service-card:hover .service-card-img {
+  transform: scale(1.05);
 }
