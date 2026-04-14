@@ -357,10 +357,7 @@ export default function Home() {
       <header className="bg-white/80 backdrop-blur-md border-b border-[#E8E0D8] sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
           <a href="#" className="flex items-center gap-2">
-            <span className="text-2xl">🌷</span>
-            <span className="heading-serif text-xl md:text-2xl font-semibold text-[#3D3632]">
-              お花の定期便ナビ
-            </span>
+            <img src="/images/logo-flwdeli-a1.png" alt="flowerデリ" className="h-10 md:h-12 w-auto" />
           </a>
           <nav className="hidden md:flex gap-8 text-sm text-[#6B5F57]">
             <a href="#diagnosis" className="hover:text-[#C4877A] transition-colors">
@@ -987,7 +984,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <span className="text-xl">🌷</span>
-                <h3 className="heading-serif font-bold text-lg">お花の定期便ナビ</h3>
+                <h3 className="heading-serif font-bold text-lg">flowerデリ</h3>
               </div>
               <p className="text-sm text-gray-400 leading-relaxed">
                 お花の定期便（花のサブスク）の比較情報サイトです。各サービスの料金、届き方、口コミなどを徹底調査し、あなたにぴったりのサービス選びをサポートします。
@@ -1019,7 +1016,7 @@ export default function Home() {
               当サイトはアフィリエイトプログラムに参加しています。掲載情報は記事執筆時点のものです。最新情報は各公式サイトでご確認ください。
             </p>
             <p className="text-xs text-gray-500 mt-2">
-              &copy; 2026 お花の定期便ナビ All Rights Reserved.
+              &copy; 2026 flowerデリ All Rights Reserved.
             </p>
           </div>
         </div>

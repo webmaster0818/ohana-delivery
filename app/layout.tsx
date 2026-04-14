@@ -20,25 +20,25 @@ const cormorant = Cormorant_Garamond({
 export const metadata: Metadata = {
   metadataBase: new URL("https://ohana-delivery.com"),
   title:
-    "お花の定期便おすすめ5選を徹底比較【2026年最新】失敗しない選び方ガイド",
+    "flowerデリ｜お花の定期便おすすめ5選を徹底比較【2026年最新】",
   description:
-    "お花の定期便（花のサブスク）人気5社を料金・送料・届き方・花の本数で徹底比較。bloomee・medelu・AND PLANTS・hanamekuなど、あなたにぴったりのサービスが見つかる診断付き。一人暮らし・プレゼント・コスパ重視など目的別おすすめも紹介。",
+    "flowerデリは、お花の定期便（花のサブスク）人気5社を料金・送料・届き方・花の本数で徹底比較。bloomee・medelu・AND PLANTS・hanamekuなど、あなたにぴったりのサービスが見つかる診断付き。",
   keywords:
-    "お花の定期便,花のサブスク,比較,おすすめ,bloomee,medelu,AND PLANTS,hanameku,花の定期便",
+    "flowerデリ,お花の定期便,花のサブスク,比較,おすすめ,bloomee,medelu,AND PLANTS,hanameku",
   openGraph: {
     title:
-      "お花の定期便おすすめ5選を徹底比較【2026年最新】失敗しない選び方ガイド",
+      "flowerデリ｜お花の定期便おすすめ5選を徹底比較【2026年最新】",
     description:
       "お花の定期便（花のサブスク）人気5社を料金・送料・届き方で徹底比較。あなたにぴったりのサービスが見つかる診断付き。",
     url: "https://ohana-delivery.com",
-    siteName: "お花の定期便ナビ",
+    siteName: "flowerデリ",
     type: "website",
     locale: "ja_JP",
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "お花の定期便おすすめ5選を徹底比較【2026年最新】失敗しない選び方ガイド",
+      "flowerデリ｜お花の定期便おすすめ5選を徹底比較【2026年最新】",
     description:
       "お花の定期便（花のサブスク）人気5社を料金・送料・届き方で徹底比較。あなたにぴったりのサービスが見つかる診断付き。",
   },
