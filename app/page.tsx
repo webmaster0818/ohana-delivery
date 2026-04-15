@@ -357,7 +357,7 @@ export default function Home() {
       <header className="bg-white/80 backdrop-blur-md border-b border-[#E8E0D8] sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
           <a href="#" className="flex items-center gap-2">
-            <img src="/images/logo-flwdeli-a1.png" alt="flowerデリ" className="h-10 md:h-12 w-auto" />
+            <img src="/images/logo-flwdeli-a1.png" alt="flowerデリ" className="h-14 md:h-20 w-auto" />
           </a>
           <nav className="hidden md:flex gap-8 text-sm text-[#6B5F57]">
             <a href="#diagnosis" className="hover:text-[#C4877A] transition-colors">
