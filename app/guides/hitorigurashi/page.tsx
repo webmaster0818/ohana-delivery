@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Header from "@/app/components/Header";
 
 /* ─── FAQ Data ─── */
 const faqItems = [
@@ -111,28 +112,7 @@ export default function HitorigurashiGuidePage() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      {/* ─── Header ─── */}
-      <header className="bg-white border-b border-[#E5E5E5] sticky top-0 z-50">
-        <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
-          <a href="/" className="text-lg md:text-xl font-bold text-[#4A7C59] hover:opacity-80 transition-opacity">
-            お花の定期便ナビ
-          </a>
-          <nav className="hidden md:flex gap-6 text-sm text-[#666]">
-            <a href="/#comparison" className="hover:text-[#4A7C59] transition-colors">
-              比較表
-            </a>
-            <a href="/#reviews" className="hover:text-[#4A7C59] transition-colors">
-              サービス詳細
-            </a>
-            <a href="/#how-to-choose" className="hover:text-[#4A7C59] transition-colors">
-              選び方
-            </a>
-            <a href="/#faq" className="hover:text-[#4A7C59] transition-colors">
-              よくある質問
-            </a>
-          </nav>
-        </div>
-      </header>
+      <Header />
 
       <main className="flex-1">
         {/* ─── Breadcrumbs ─── */}
@@ -686,7 +666,7 @@ export default function HitorigurashiGuidePage() {
         <div className="max-w-5xl mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-8">
             <div>
-              <p className="text-lg font-bold text-white mb-1">お花の定期便ナビ</p>
+              <p className="text-lg font-bold text-white mb-1">flowerデリ</p>
               <p className="text-xs text-gray-400">
                 花のサブスクを徹底比較。あなたにぴったりのサービスが見つかる。
               </p>
@@ -715,7 +695,7 @@ export default function HitorigurashiGuidePage() {
               掲載情報は2026年4月時点のものです。最新の料金・サービス内容は各公式サイトでご確認ください。
             </p>
             <p className="text-xs text-gray-500 mt-4">
-              &copy; 2026 お花の定期便ナビ All rights reserved.
+              &copy; 2026 flowerデリ All rights reserved.
             </p>
           </div>
         </div>
