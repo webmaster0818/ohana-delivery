@@ -358,7 +358,6 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 py-2 flex items-center justify-between">
           <a href="#" className="flex items-center gap-2">
             <img src="/images/logo-flwdeli-a1.png" alt="flowerデリ" className="h-24 md:h-32 w-auto" />
-            <span className="text-4xl md:text-5xl font-semibold text-[#3D3632] tracking-wide" style={{fontFamily: 'Georgia, serif'}}>flower<span className="font-normal">デリ</span></span>
           </a>
           <nav className="hidden md:flex gap-8 text-sm text-[#6B5F57]">
             <a href="#diagnosis" className="hover:text-[#C4877A] transition-colors">
