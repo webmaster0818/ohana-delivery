@@ -2,82 +2,141 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ohana-delivery.com/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <priority>1.0</priority>
   </url>
+  <!-- サービス詳細 8ページ -->
   <url>
     <loc>https://ohana-delivery.com/services/bloomee/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ohana-delivery.com/services/medelu/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ohana-delivery.com/services/and-plants/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ohana-delivery.com/services/hanameku/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ohana-delivery.com/services/nihon-sogo-engei/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ohana-delivery.com/compare/cheap/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <loc>https://ohana-delivery.com/services/hitohana/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ohana-delivery.com/services/lifft/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ohana-delivery.com/services/tasuhana/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- 比較記事 4ページ -->
+  <url>
+    <loc>https://ohana-delivery.com/compare/bloomee-vs-medelu/</loc>
+    <lastmod>2026-04-16</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ohana-delivery.com/compare/bloomee-vs-medelu/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <loc>https://ohana-delivery.com/compare/cheap/</loc>
+    <lastmod>2026-04-16</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ohana-delivery.com/compare/post-delivery/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ohana-delivery.com/compare/500yen/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <!-- ガイド 11ページ -->
+  <url>
+    <loc>https://ohana-delivery.com/guides/beginner/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ohana-delivery.com/guides/flower-care/</loc>
+    <lastmod>2026-04-16</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ohana-delivery.com/guides/hitorigurashi/</loc>
-    <lastmod>2026-04-12</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ohana-delivery.com/guides/present/</loc>
-    <lastmod>2026-04-12</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ohana-delivery.com/guides/beginner/</loc>
-    <lastmod>2026-04-12</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ohana-delivery.com/guides/flower-care/</loc>
-    <lastmod>2026-04-12</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ohana-delivery.com/guides/seasonal-flowers/</loc>
-    <lastmod>2026-04-12</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ohana-delivery.com/guides/oshare/</loc>
-    <lastmod>2026-04-12</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ohana-delivery.com/guides/seasonal-flowers/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ohana-delivery.com/guides/kaiyaku/</loc>
-    <lastmod>2026-04-12</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ohana-delivery.com/guides/butsudan/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ohana-delivery.com/guides/shoboi/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ohana-delivery.com/guides/merit-demerit/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ohana-delivery.com/guides/mothers-day/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <!-- ポリシー 3ページ -->
+  <url>
+    <loc>https://ohana-delivery.com/terms-of-service/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://ohana-delivery.com/privacy-policy/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://ohana-delivery.com/content-policy/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.3</priority>
   </url>
 </urlset>
