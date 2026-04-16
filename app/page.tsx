@@ -1023,6 +1023,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <span className="text-xl">🌷</span>
+                <img src="/images/logo-flwdeli-a1-trimmed.png" alt="flowerデリ" className="h-12 w-auto brightness-0 invert opacity-80 mb-2" />
                 <h3 className="heading-serif font-bold text-lg">flowerデリ</h3>
               </div>
               <p className="text-sm text-gray-400 leading-relaxed">
