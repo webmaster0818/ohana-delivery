@@ -1053,7 +1053,12 @@ export default function Home() {
             <p className="text-xs text-gray-500 leading-relaxed">
               当サイトはアフィリエイトプログラムに参加しています。掲載情報は記事執筆時点のものです。最新情報は各公式サイトでご確認ください。
             </p>
-            <p className="text-xs text-gray-500 mt-2">
+            <div className="flex flex-wrap justify-center gap-4 mt-4 text-xs text-gray-400">
+              <a href="/terms-of-service" className="hover:text-[#C4877A] transition-colors">利用規約</a>
+              <a href="/privacy-policy" className="hover:text-[#C4877A] transition-colors">プライバシーポリシー</a>
+              <a href="/content-policy" className="hover:text-[#C4877A] transition-colors">記事の制作ポリシー</a>
+            </div>
+            <p className="text-xs text-gray-500 mt-4">
               &copy; 2026 flowerデリ All Rights Reserved.
             </p>
           </div>

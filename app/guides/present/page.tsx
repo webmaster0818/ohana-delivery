@@ -747,6 +747,11 @@ export default function PresentGuidePage() {
             <p className="text-xs text-gray-500 mt-2">
               掲載情報は2026年4月時点のものです。最新の料金・サービス内容は各公式サイトでご確認ください。
             </p>
+            <div className="flex flex-wrap justify-center gap-4 mt-4 text-xs text-gray-400">
+              <a href="/terms-of-service" className="hover:text-white transition-colors">利用規約</a>
+              <a href="/privacy-policy" className="hover:text-white transition-colors">プライバシーポリシー</a>
+              <a href="/content-policy" className="hover:text-white transition-colors">記事の制作ポリシー</a>
+            </div>
             <p className="text-xs text-gray-500 mt-4">
               &copy; 2026 flowerデリ All rights reserved.
             </p>
