@@ -1021,10 +1021,8 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-10 mb-10">
             <div>
-              <div className="flex items-center gap-2 mb-4">
-                <span className="text-xl">🌷</span>
-                <img src="/images/logo-flwdeli-a1-trimmed.png" alt="flowerデリ" className="h-12 w-auto brightness-0 invert opacity-80 mb-2" />
-                <h3 className="heading-serif font-bold text-lg">flowerデリ</h3>
+              <div className="mb-4">
+                <img src="/images/logo-flwdeli-footer.png" alt="flowerデリ" className="h-14 w-auto opacity-90" />
               </div>
               <p className="text-sm text-gray-400 leading-relaxed">
                 お花の定期便（花のサブスク）の比較情報サイトです。各サービスの料金、届き方、口コミなどを徹底調査し、あなたにぴったりのサービス選びをサポートします。

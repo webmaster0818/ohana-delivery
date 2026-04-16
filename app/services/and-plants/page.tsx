@@ -732,8 +732,8 @@ export default function AndPlantsPage() {
         <div className="max-w-5xl mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-8">
             <div>
-              <img src="/images/logo-flwdeli-a1-trimmed.png" alt="flowerデリ" className="h-12 w-auto brightness-0 invert opacity-80 mb-2" />
-              <p className="text-lg font-bold text-white mb-1">flowerデリ</p>
+              <img src="/images/logo-flwdeli-footer.png" alt="flowerデリ" className="h-14 w-auto opacity-90" />
+
               <p className="text-xs text-gray-400">
                 花のサブスクを徹底比較。あなたにぴったりのサービスが見つかる。
               </p>
