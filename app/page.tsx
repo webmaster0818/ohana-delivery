@@ -355,7 +355,12 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* ─── Header ─── */}
-      <header className="bg-white/80 backdrop-blur-md border-b border-[#E8E0D8] sticky top-0 z-50">
+      <header className="sticky top-0 z-50">
+        {/* 景表法対応 */}
+        <div className="bg-[#F5F0E8] text-center py-1">
+          <span className="text-[10px] text-[#9B8F87]">PRを含みます</span>
+        </div>
+        <div className="bg-white/80 backdrop-blur-md border-b border-[#E8E0D8]">
         <div className="max-w-6xl mx-auto px-4 py-2 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2">
             <img src="/images/logo-flwdeli-a1-trimmed.png" alt="flowerデリ" className="h-16 md:h-20 w-auto" />
@@ -416,6 +421,7 @@ export default function Home() {
             </nav>
           </div>
         )}
+        </div>
       </header>
 
       <main className="flex-1">
